@@ -1,4 +1,164 @@
 
 
 
-<h1>  hello eveone ........     </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cake Bakery</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fff7f0;
+        }
+
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #ff9a8b;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('https://images.unsplash.com/photo-1542826438-7f9f7b7c9f92') no-repeat center/cover;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .cakes {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cake-card {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .cake-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .cake-card h3 {
+            margin: 10px 0;
+        }
+
+        .contact {
+            background: #ffe0db;
+            padding: 30px;
+        }
+
+        footer {
+            background: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍰 Sweet Cake Bakery</h1>
+    <p>Fresh Cakes Made With Love</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#cakes">Cakes</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Delicious Cakes for Every Occasion</h1>
+    <p>Order your favorite cake today!</p>
+</section>
+
+<section id="cakes" class="section">
+    <h2>Our Cakes</h2>
+
+    <div class="cakes">
+
+        <div class="cake-card">
+            <img src="https://images.unsplash.com/photo-1605478371310-a9f1e96b6f71" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and creamy chocolate delight.</p>
+        </div>
+
+        <div class="cake-card">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Strawberry Cake">
+            <h3>Strawberry Cake</h3>
+            <p>Fresh strawberry with soft cream.</p>
+        </div>
+
+        <div class="cake-card">
+            <img src="https://images.unsplash.com/photo-1559628233-100c798642d4" alt="Vanilla Cake">
+            <h3>Vanilla Cake</h3>
+            <p>Classic vanilla with smooth texture.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are a small bakery passionate about making fresh and delicious cakes for birthdays, weddings, and all celebrations.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Kathmandu, Nepal</p>
+    <p>📞 +977-9800000000</p>
+    <p>📧 sweetcake@email.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Sweet Cake Bakery | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
